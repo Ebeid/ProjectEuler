@@ -1,0 +1,6 @@
+d:\documents\visual studio 2015\Projects\ProjectEuler\ProjectEuler\bin\Debug\ProjectEuler.exe.config
+D:\GitHub\ProjectEuler\ProjectEuler\bin\Debug\ProjectEuler.exe.config
+D:\GitHub\ProjectEuler\ProjectEuler\bin\Debug\ProjectEuler.exe
+D:\GitHub\ProjectEuler\ProjectEuler\bin\Debug\ProjectEuler.pdb
+D:\GitHub\ProjectEuler\ProjectEuler\obj\Debug\ProjectEuler.exe
+D:\GitHub\ProjectEuler\ProjectEuler\obj\Debug\ProjectEuler.pdb
