@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,7 +11,8 @@ namespace ProjectEuler
     {
         public static void Main(string[] args)
         {
-            Problem1();
+            //Problem1();
+            Problem2();
             Console.ReadLine();
         }
 
@@ -55,7 +57,25 @@ namespace ProjectEuler
         ///     The first line of input contains the upper bound (4000000 in our case).
         public static void Problem2()
         {
+            long upperBound = long.Parse(Console.ReadLine());
+            Dictionary<long, System.Numerics.BigInteger> fibonacciMemorizedResults = new Dictionary<long, System.Numerics.BigInteger>();
+            System.Numerics.BigInteger result = 0;
+            for (int i = 0; i < int.MaxValue; i++)
+            {
+                if (i <= 1)
+                    fibonacciMemorizedResults[i] = i;
+                else
+                {
+                    fibonacciMemorizedResults[i] = fibonacciMemorizedResults[i - 1] + fibonacciMemorizedResults[i - 2];
+                    if (fibonacciMemorizedResults[i] > upperBound) break;
+                    fibonacciMemorizedResults[i - 2] = 0;
+                }
 
+                if ((fibonacciMemorizedResults[i] % 2) == 0)
+                    result = result + fibonacciMemorizedResults[i];
+            }
+
+            Console.WriteLine(result);
         }
     }
 }

@@ -4,3 +4,4 @@ D:\GitHub\ProjectEuler\ProjectEuler\bin\Debug\ProjectEuler.exe
 D:\GitHub\ProjectEuler\ProjectEuler\bin\Debug\ProjectEuler.pdb
 D:\GitHub\ProjectEuler\ProjectEuler\obj\Debug\ProjectEuler.exe
 D:\GitHub\ProjectEuler\ProjectEuler\obj\Debug\ProjectEuler.pdb
+D:\GitHub\ProjectEuler\ProjectEuler\obj\Debug\ProjectEuler.csprojResolveAssemblyReference.cache
